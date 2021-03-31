@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kiwi Maru', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    background: linear-gradient();
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(234, 234, 58, 1);
+    height: 60px;
+}
+
+#searchTxt {
+    outline: none;
+    height: 34px;
+    width: 22pc;
+}
+
+.icon .fa-user-circle,
+.fa-plus {
+    margin: 10px;
+    font-size: 1.6rem;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 72px;
+    background: rgb(209, 208, 208);
+    align-items: center;
+}
+
+.navbar li {
+    margin-right: 40px;
+}
+
+.slider {
+    width: 100%;
+    color: red;
+    height: 410px;
+    background-size: cover;
+    animation: slide 15s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background: url(# ) no-repeat center center;
+    }
+    50% {
+        background: url(#) no-repeat center center;
+    }
+    75% {
+        background: url(#) no-repeat center center;
+    }
+    100% {
+        background: url(#) no-repeat center center;
+    }
+}
